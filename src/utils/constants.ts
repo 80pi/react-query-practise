@@ -4,3 +4,8 @@ export interface UserDataProps {
   phone: string;
   id: number;
 }
+export interface PostDataProps {
+  body: string;
+  title: string;
+  id: number;
+}
